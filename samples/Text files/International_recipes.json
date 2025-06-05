@@ -1,0 +1,83 @@
+[
+  {
+    "nev": "Paprikás krumpli",
+    "hozzavalok": [
+      "1 kg burgonya",
+      "1 közepes fej vöröshagyma",
+      "2 evőkanál napraforgóolaj",
+      "1 evőkanál fűszerpaprika",
+      "1 pár lecsókolbász (opcionális)",
+      "só, bors ízlés szerint",
+      "víz"
+    ],
+    "elkeszites": [
+      "A burgonyát meghámozzuk, megmossuk, felkockázzuk.",
+      "A hagymát finomra vágjuk, olajon üvegesre pároljuk.",
+      "Lehúzzuk a tűzről, hozzáadjuk a paprikát, elkeverjük.",
+      "Beletesszük a krumplit, felöntjük vízzel, sózzuk, borsozzuk.",
+      "Közepes lángon főzzük, míg a krumpli megpuhul.",
+      "Ha használunk kolbászt, a főzés végén karikázva hozzáadjuk.",
+      "Forrón tálaljuk friss kenyérrel."
+    ]
+  },
+  {
+    "nev": "Somlói galuska",
+    "hozzavalok": [
+      "háromféle piskóta (sima, kakaós, diós)",
+      "cukorszirup rumaromával",
+      "darált dió",
+      "mazsola",
+      "csokoládéöntet",
+      "tejszínhab"
+    ],
+    "elkeszites": [
+      "A piskótákat kockákra vágjuk.",
+      "A szirupot elkészítjük, rumaromával ízesítjük.",
+      "Rétegezzük: piskóta, mazsola, dió, öntet.",
+      "Többször ismételjük a rétegezést.",
+      "Hűtőben 2-3 órát pihentetjük.",
+      "Galuskákat szedünk belőle, tejszínhabbal tálaljuk."
+    ]
+  },
+  {
+    "nev": "Hortobágyi palacsinta",
+    "hozzavalok": [
+      "8 db palacsinta",
+      "30 dkg darált sertéshús",
+      "1 fej vöröshagyma",
+      "1 evőkanál fűszerpaprika",
+      "2 dl tejföl",
+      "olaj, só, bors"
+    ],
+    "elkeszites": [
+      "A hagymát apróra vágjuk, olajon megdinszteljük.",
+      "Hozzáadjuk a húst, fűszerezzük, puhára pirítjuk.",
+      "A tölteléket langyosan a palacsintákba töltjük.",
+      "Felgöngyöljük, tepsibe fektetjük.",
+      "A megmaradt tölteléket elkeverjük tejföllel, ráöntjük.",
+      "Sütőben 180°C-on 20 percig sütjük.",
+      "Tejföllel tálaljuk."
+    ]
+  },
+  {
+    "nev": "Babgulyás",
+    "hozzavalok": [
+      "30 dkg tarkabab (előző este beáztatva)",
+      "20 dkg füstölt hús",
+      "1 fej vöröshagyma",
+      "1 sárgarépa",
+      "1 petrezselyemgyökér",
+      "1 evőkanál fűszerpaprika",
+      "só, bors, kömény, babérlevél"
+    ],
+    "elkeszites": [
+      "A hagymát aprítjuk, olajon megdinszteljük.",
+      "Beletesszük a paprikát, majd a húst, felöntjük vízzel.",
+      "Hozzáadjuk a babot, sárgarépát, gyökeret, fűszereket.",
+      "Lassú tűzön főzzük, amíg a bab és hús megpuhul.",
+      "Szükség szerint pótoljuk a vizet, ízesítjük.",
+      "Forrón, friss kenyérrel tálaljuk."
+    ]
+  }
+]
+
