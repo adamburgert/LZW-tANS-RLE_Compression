@@ -16,7 +16,7 @@ MAGIC_HEADERS = {
     'lzw+tans': b'LTNS',
     'rle+lzw+tans': b'RLTN',
 }
-
+ 
 def PowerTwo(n: int) -> int:
     return 1 << (n - 1).bit_length()
 
