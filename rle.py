@@ -75,7 +75,7 @@ def Val_RLE_Encoded(data: bytes):
                 i += 2
             else:
                 if i + 2 >= n:
-                    raise ValueError("Incomplete run Marker at EOF during validation")
+                    raise ValueError("Incomplete run marker during validation")
                 i += 3
         else:
             i += 1
