@@ -16,7 +16,6 @@ MAGIC_HEADERS_REVERSE = {
     b'RLTN': 'rle+lzw+tans',
 }
 def UnpackBits(PackedBits: bytes, length: int) -> list[int]:
-    """Unpack list of 4-bit ints from bytes (2 per Byte)."""
     Bits = []
     for b in PackedBits:
         high = (b >> 4) & 0xF
@@ -136,7 +135,7 @@ def HandlerRLE_ThenTANS(f):
         return HandlerTANS(f_tans)
     except Exception as e:
         print(f"!!! Warning: TANS decompression failed after RLE: {e}. "
-              "This likely means the frequency distribution of the data is too skewed or too unique for TANS to handle properly. "
+              "The frequency distribution of the data is too skewed or too unique for TANS to handle. "
               "Skipping this file.")
         return None
 
@@ -150,7 +149,7 @@ def HandlerLZW_ThenTANS(f):
         return HandlerTANS(f_tans)
     except Exception as e:
         print(f"!!! Warning: TANS decompression failed after LZW: {e}. "
-              "This likely means the frequency distribution of the data is too skewed or too unique for TANS to handle properly. "
+              "The frequency distribution of the data is too skewed or too unique for TANS to handle. "
               "Skipping this file.")
         return None
 
@@ -161,7 +160,7 @@ def HandlerRLELZWThenTANS(f):
         tans_out = HandlerTANS(BytesIO(CompData))
     except Exception as e:
         print(f"!!! Warning: TANS decompression failed: {e}. "
-              "This likely means the frequency distribution of the data is too skewed or too unique for TANS to handle properly. "
+              "The frequency distribution of the data is too skewed or too unique for TANS to handle. "
               "Skipping this file.")
         return None 
     if tans_out is None:
@@ -176,7 +175,6 @@ def HandlerRLELZWThenTANS(f):
     return RLEDecoded
 
 def ValStreamPos(f, expected_pos: int, context: str):
-    """Helper to validate stream position during decompression"""
     CurrentPosition = f.tell()
     if CurrentPosition != expected_pos:
         raise ValueError(f"Stream position mismatch in {context}: "
