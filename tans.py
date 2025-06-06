@@ -82,14 +82,3 @@ class TANS:
             state = Freq * (state - start) + r
         return data
 
-if __name__ == "__main__":
-    data = b"hello tANS!"
-    Freq = dict(Counter(data))
-    tans = TANS(Freq, TableSize=512)
-
-    state, Bits = tans.Encode(list(data))
-    Decoded = tans.Decode(state, Bits, len(data))
-
-    print("Original:", data)
-    print("Decoded :", bytes(Decoded))
-    print("Match   :", bytes(Decoded) == data)
