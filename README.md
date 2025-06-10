@@ -1,6 +1,6 @@
 # LZW-tANS-RLE_Compression
 This project was created for the course "Data Compression Methods"
-Written by Adam Burgert
+- Written by Adam Burgert
 
 cli.py CLI for user interaction.
 - python cli.py –compress –method tans
