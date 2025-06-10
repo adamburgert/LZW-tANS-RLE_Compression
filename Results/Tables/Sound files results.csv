@@ -1,0 +1,10 @@
+File,Algorithm,Original Size,Compressed Size,Compression Ratio (%),Space Saved (%)
+mixkit-birds-chirping-near-the-river-2473.wav,LZW,23290.82,32751.94,140.62,-40.62
+mixkit-birds-chirping-near-the-river-2473.wav,RLE,23290.82,26342.19,113.1,-13.1
+mixkit-birds-chirping-near-the-river-2473.wav,RLE + LZW,23290.82,38212.32,164.07,-64.07
+mixkit-river-surroundings-in-the-jungle-2451.wav,LZW,15541.19,23363.35,150.33,-50.33
+mixkit-river-surroundings-in-the-jungle-2451.wav,RLE,15541.19,16687.1,107.37,-7.37
+mixkit-river-surroundings-in-the-jungle-2451.wav,RLE + LZW,15541.19,27001.73,173.74,-73.74
+rmixkit-sea-waves-with-birds-loop-1185.wav,LZW,6553.28,9181.9,140.11,-40.11
+rmixkit-sea-waves-with-birds-loop-1185.wav,RLE,6553.28,6747.7,102.97,-2.97
+rmixkit-sea-waves-with-birds-loop-1185.wav,RLE + LZW,6553.28,9169.18,139.92,-39.92

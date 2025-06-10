@@ -40,7 +40,7 @@ def RLE_Decode(data: bytes) -> bytes:
 
         if Byte == 0:
             if i + 1 >= n:
-                raise ValueError("Truncated escape sequence at end")
+                raise ValueError("Truncated escape sequence at the end")
 
             Marker = data[i + 1]
             if Marker == 0:
@@ -48,7 +48,7 @@ def RLE_Decode(data: bytes) -> bytes:
                 i += 2
             elif Marker == 0xFF:
                 if i + 3 >= n:
-                    raise ValueError("Truncated run Marker at end")
+                    raise ValueError("Truncated run Marker at the end")
                 val = data[i + 2]
                 RunLen = data[i + 3]
                 Decoded.extend([val] * RunLen)
@@ -69,7 +69,7 @@ def Val_RLE_Encoded(data: bytes):
         Byte = data[i]
         if Byte == 0:
             if i + 1 >= n:
-                raise ValueError("Incomplete escape or run Marker at EOF during validation")
+                raise ValueError("Incomplete escape or run Marker during validation")
             NextByte = data[i + 1]
             if NextByte == 0:
                 i += 2

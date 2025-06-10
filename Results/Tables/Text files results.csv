@@ -1,0 +1,36 @@
+File,Algorithm,Original Size,Compressed Size,Compression Ratio (%),Space Saved (%)
+International_recipes.json,LZW,2.65,2.3,86.89,13.11
+International_recipes.json,RLE,2.65,2.56,96.47,3.53
+International_recipes.json,tANS,2.65,1.67,62.96,37.04
+International_recipes.json,LZW + tANS,2.65,2.34,88.07,11.93
+International_recipes.json,RLE + LZW,2.65,2.31,87.04,12.96
+International_recipes.json,RLE + tANS,2.65,1.64,61.78,38.22
+International_recipes.json,RLE + LZW + tANS,2.65,2.35,88.73,11.27
+Mediterranean recipes.yaml,LZW,2.53,2.27,89.78,10.22
+Mediterranean recipes.yaml,RLE,2.53,2.53,99.85,0.15
+Mediterranean recipes.yaml,tANS,2.53,1.62,63.98,36.02
+Mediterranean recipes.yaml,LZW + tANS,2.53,2.3,90.67,9.33
+Mediterranean recipes.yaml,RLE + LZW,2.53,2.28,90.17,9.83
+Mediterranean recipes.yaml,RLE + tANS,2.53,1.63,64.52,35.48
+Mediterranean recipes.yaml,RLE + LZW + tANS,2.53,2.31,91.09,8.91
+receptek.html,LZW,4.49,3.28,73.0,27.0
+receptek.html,RLE,4.49,3.82,85.0,15.0
+receptek.html,tANS,4.49,2.67,59.5,40.5
+receptek.html,LZW + tANS,4.49,2.91,64.7,35.3
+receptek.html,RLE + LZW,4.49,3.21,71.39,28.61
+receptek.html,RLE + tANS,4.49,2.36,52.57,47.43
+receptek.html,RLE + LZW + tANS,4.49,2.86,63.7,36.3
+receptek.pdf,LZW,35.72,64.38,180.26,-80.26
+receptek.pdf,RLE,35.72,35.73,100.04,-0.04
+receptek.pdf,tANS,35.72,19.13,53.56,46.44
+receptek.pdf,LZW + tANS,35.72,33.46,93.68,6.32
+receptek.pdf,RLE + LZW,35.72,64.52,180.65,-80.65
+receptek.pdf,RLE + tANS,35.72,19.13,53.57,46.43
+receptek.pdf,RLE + LZW + tANS,35.72,33.53,93.87,6.13
+receptek.txt,LZW,2.31,2.2,95.35,4.65
+receptek.txt,RLE,2.31,2.09,90.49,9.51
+receptek.txt,tANS,2.31,1.55,67.2,32.8
+receptek.txt,LZW + tANS,2.31,2.27,98.06,1.94
+receptek.txt,RLE + LZW,2.31,2.17,94.0,6.0
+receptek.txt,RLE + tANS,2.31,1.47,63.78,36.22
+receptek.txt,RLE + LZW + tANS,2.31,2.25,97.42,2.58

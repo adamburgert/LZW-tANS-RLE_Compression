@@ -1,0 +1,16 @@
+File,Algorithm,Original Size,Compressed Size,Compression Ratio (%),Space Saved (%)
+apple.jpg,LZW,4470.9,8247.37,184.47,-84.47
+apple.jpg,RLE,4470.9,4500.88,100.67,-0.67
+apple.jpg,RLE + LZW,4470.9,8452.52,189.06,-89.06
+cable.jpg,LZW,4596.13,8422.02,183.24,-83.24
+cable.jpg,RLE,4596.13,4632.01,100.78,-0.78
+cable.jpg,RLE + LZW,4596.13,8721.4,189.76,-89.76
+lemon.webp,LZW,6555.24,12313.36,187.84,-87.84
+lemon.webp,RLE,6555.24,6582.78,100.42,-0.42
+lemon.webp,RLE + LZW,6555.24,12409.86,189.31,-89.31
+shell.pdf,LZW,1818.41,3363.85,184.99,-84.99
+shell.pdf,RLE,1818.41,1830.29,100.65,-0.65
+shell.pdf,RLE + LZW,1818.41,3458.29,190.18,-90.18
+vase.png,LZW,11148.14,20877.84,187.28,-87.28
+vase.png,RLE,11148.14,11211.92,100.57,-0.57
+vase.png,RLE + LZW,11148.14,21036.01,188.7,-88.7

@@ -1,0 +1,64 @@
+File,Algorithm,Original Size,Compressed Size,Compression Ratio (%),Space Saved (%)
+sample1.data,LZW,976.56,11.0,1.13,98.87
+sample1.data,RLE,976.56,15.33,1.57,98.43
+sample1.data,tANS,976.56,,,
+sample1.data,LZW + tANS,976.56,2.65,0.27,99.73
+sample1.data,RLE + LZW,976.56,0.5,0.05,99.95
+sample1.data,RLE + tANS,976.56,7.7,0.79,99.21
+sample1.data,RLE + LZW + tANS,976.56,1.48,0.15,99.85
+sample1b.data,LZW,976.56,11.01,1.13,98.87
+sample1b.data,RLE,976.56,15.33,1.57,98.43
+sample1b.data,tANS,976.56,,,
+sample1b.data,LZW + tANS,976.56,2.65,0.27,99.73
+sample1b.data,RLE + LZW,976.56,0.5,0.05,99.95
+sample1b.data,RLE + tANS,976.56,7.71,0.79,99.21
+sample1b.data,RLE + LZW + tANS,976.56,1.48,0.15,99.85
+sample2.data,LZW,976.56,181.8,18.62,81.38
+sample2.data,RLE,976.56,980.4,100.39,-0.39
+sample2.data,tANS,976.56,489.56,50.13,49.87
+sample2.data,LZW + tANS,976.56,64.18,6.57,93.43
+sample2.data,RLE + LZW,976.56,133.25,13.64,86.36
+sample2.data,RLE + tANS,976.56,491.46,50.33,49.67
+sample2.data,RLE + LZW + tANS,976.56,67.89,6.95,93.05
+sample3.data,LZW,976.56,199.78,20.46,79.54
+sample3.data,RLE,976.56,1251.23,128.13,-28.13
+sample3.data,tANS,976.56,488.32,50.0,50.0
+sample3.data,LZW + tANS,976.56,93.63,9.59,90.41
+sample3.data,RLE + LZW,976.56,234.34,24.0,76.0
+sample3.data,RLE + tANS,976.56,,,
+sample3.data,RLE + LZW + tANS,976.56,118.44,12.13,87.87
+sample4.data,LZW,976.56,88.25,9.04,90.96
+sample4.data,RLE,976.56,383.25,39.24,60.76
+sample4.data,tANS,976.56,488.32,50.0,50.0
+sample4.data,LZW + tANS,976.56,37.41,3.83,96.17
+sample4.data,RLE + LZW,976.56,78.09,8.0,92.0
+sample4.data,RLE + tANS,976.56,191.9,19.65,80.35
+sample4.data,RLE + LZW + tANS,976.56,40.31,4.13,95.87
+sample5.data,LZW,976.56,1852.15,189.66,-89.66
+sample5.data,RLE,976.56,980.45,100.4,-0.4
+sample5.data,tANS,976.56,489.56,50.13,49.87
+sample5.data,LZW + tANS,976.56,,,
+sample5.data,RLE + LZW,976.56,1848.98,189.34,-89.34
+sample5.data,RLE + tANS,976.56,491.49,50.33,49.67
+sample5.data,RLE + LZW + tANS,976.56,,,
+sample5b.data,LZW,976.56,45.12,4.62,95.38
+sample5b.data,RLE,976.56,15.91,1.63,98.37
+sample5b.data,tANS,976.56,489.56,50.13,49.87
+sample5b.data,LZW + tANS,976.56,,,
+sample5b.data,RLE + LZW,976.56,10.81,1.11,98.89
+sample5b.data,RLE + tANS,976.56,9.22,0.94,99.06
+sample5b.data,RLE + LZW + tANS,976.56,6.67,0.68,99.32
+sample6.data,LZW,976.56,1634.08,167.33,-67.33
+sample6.data,RLE,976.56,980.49,100.4,-0.4
+sample6.data,tANS,976.56,489.56,50.13,49.87
+sample6.data,LZW + tANS,976.56,,,
+sample6.data,RLE + LZW,976.56,1786.91,182.98,-82.98
+sample6.data,RLE + tANS,976.56,491.51,50.33,49.67
+sample6.data,RLE + LZW + tANS,976.56,,,
+sample7.data,LZW,976.56,1708.25,174.93,-74.93
+sample7.data,RLE,976.56,994.75,101.86,-1.86
+sample7.data,tANS,976.56,489.56,50.13,49.87
+sample7.data,LZW + tANS,976.56,,,
+sample7.data,RLE + LZW,976.56,1763.4,180.57,-80.57
+sample7.data,RLE + tANS,976.56,498.64,51.06,48.94
+sample7.data,RLE + LZW + tANS,976.56,,,

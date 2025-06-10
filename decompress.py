@@ -135,7 +135,7 @@ def HandlerRLE_ThenTANS(f):
         return HandlerTANS(f_tans)
     except Exception as e:
         print(f"!!! Warning: TANS decompression failed after RLE: {e}. "
-              "The frequency distribution of the data is too skewed or too unique for TANS to handle. "
+              "Frequency distribution of the data is too skewed or too unique for TANS to handle. "
               "Skipping this file.")
         return None
 
@@ -149,7 +149,6 @@ def HandlerLZW_ThenTANS(f):
         return HandlerTANS(f_tans)
     except Exception as e:
         print(f"!!! Warning: TANS decompression failed after LZW: {e}. "
-              "The frequency distribution of the data is too skewed or too unique for TANS to handle. "
               "Skipping this file.")
         return None
 
@@ -160,7 +159,7 @@ def HandlerRLELZWThenTANS(f):
         tans_out = HandlerTANS(BytesIO(CompData))
     except Exception as e:
         print(f"!!! Warning: TANS decompression failed: {e}. "
-              "The frequency distribution of the data is too skewed or too unique for TANS to handle. "
+              "Frequency distribution of the data is too skewed or too unique for TANS to handle."
               "Skipping this file.")
         return None 
     if tans_out is None:
