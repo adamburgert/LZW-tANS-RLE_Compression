@@ -68,7 +68,7 @@ def DecompressionProcessor(args):
         OriginalSize = os.path.getsize(InputPath) if os.path.exists(InputPath) else 0
         return (File, OriginalSize, 0, False, str(e))
 
-
+ 
 def main():
     Getter = argparse.ArgumentParser(description="Parallel Compression/Decompression Pipeline")
     Getter.add_argument("--compress", action="store_true", help="Run compression pipeline")
